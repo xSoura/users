@@ -19,7 +19,7 @@ Brief description of the project.
 To get started with the project, clone the repository and navigate to the project directory.
 After cloning, navigate to the backend directory and run the following command to install backend dependencies:
 ```
-composer install:
+composer install
 ```
 once installed run the next command:
 ```
