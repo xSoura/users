@@ -17,7 +17,18 @@ Brief description of the project.
 ## Installation
 
 To get started with the project, clone the repository and navigate to the project directory.
-
+After cloning, navigate to the backend directory and run the following command to install backend dependencies:
+```
+composer install:
+```
+once installed run the next command:
+```
+npm install
+```
+then navigate to the front diretory and run the next command:
+```
+npm install
+```
 ## Configuration
 
 ### Backend Configuration
@@ -32,6 +43,12 @@ DB_PORT=          // Database port (e.g., 3306)
 DB_DATABASE=      // Database name (e.g., dbname)
 DB_USERNAME=      // Database username
 DB_PASSWORD=      // Database password
+```
+
+After configuring the `.env` file, run the following command to create the necessary tables in the database:
+
+```
+php artisan migrate
 ```
 
 Generate a JWT secret key by running the following command:
