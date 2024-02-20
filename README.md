@@ -1,4 +1,4 @@
-[Users Project]
+[Users Porject]
 
 Brief description of the project.
 
@@ -84,6 +84,6 @@ Once you have successfully added a user, return to the frontend URL and log in w
 
 ## Testing
 
-To run migrations, execute the following command:
+To run test, execute the following command:
 
 php artisan migrate --testsuite=Feature
